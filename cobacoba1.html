@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Toko Buku COMBOOKS</title>
+  <style>
+    body {
+      background-color: white;
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .header {
+      display: flex;
+      align-items: center;
+      padding: 10px 20px;
+      background-color: #f4f4f4;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    .header img {
+      width: 70px;
+      height: 70px;
+      margin-right: 20px;
+    }
+
+    .nav {
+      display: flex;
+      gap: 20px;
+    }
+
+    .nav a {
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+      padding: 8px 12px;
+      border-radius: 6px;
+      transition: background-color 0.3s;
+    }
+
+    .nav a:hover {
+      background-color: #ddd;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <img src="Combooks.png" alt="Logo Combooks">
+    <div class="nav">
+      <a href="#">HOME</a>
+      <a href="#">BUKU</a>
+      <a href="#">MAJALAH</a>
+      <a href="#">KORAN</a>
+    </div>
+  </div>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Padding vs Margin</title>
+  <style>
+    body {
+      background-color: #f0f0f0;
+      padding: 50px;
+      font-family: sans-serif;
+    }
+
+    .box {
+      background-color: lightblue;
+      padding: 30px;
+      margin: 40px;
+      border: 3px solid blue;
+      color: darkblue;
+    }
+
+    .box p {
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="box">
+    <p>Ini adalah kotak biru.</p>
+    <p><strong>Padding:</strong> ruang antara teks dan garis kotak.</p>
+    <p><strong>Margin:</strong> ruang antara kotak ini dengan sekelilingnya.</p>
+  </div>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Padding vs Margin (2 Boxes)</title>
+  <style>
+    body {
+      background-color: #f0f0f0;
+      font-family: sans-serif;
+      padding: 40px;
+    }
+
+    .container {
+      display: flex;
+      gap: 30px; /* jarak antar kotak (seperti margin) */
+    }
+
+    .box {
+      background-color: lightblue;
+      padding: 20px;
+      margin: 10px;
+      border: 3px solid blue;
+      color: darkblue;
+      width: 200px;
+      height: auto;
+    }
+
+    .box.second {
+      background-color: lightgreen;
+      border-color: green;
+      padding: 40px;
+      margin: 30px;
+      color: darkgreen;
+    }
+
+    .box p {
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="box">
+      <p><strong>Kotak 1</strong></p>
+      <p>Padding: 20px</p>
+      <p>Margin: 10px</p>
+    </div>
+
+    <div class="box second">
+      <p><strong>Kotak 2</strong></p>
+      <p>Padding: 40px</p>
+      <p>Margin: 30px</p>
+    </div>
+  </div>
+
+</body>
+</html>

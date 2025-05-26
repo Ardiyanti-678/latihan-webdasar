@@ -1,0 +1,33 @@
+.navbar{
+background-color:aliceblue;
+margin:0;
+padding:30px 30px;
+}
+
+.container{
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.menu{
+margin:0;
+display:flex;
+font-family:verdana;
+list-style:none;
+padding:0;
+justify-content:space-between;
+align-items:center;
+}
+
+.menu li{
+padding-left:0;
+margin-right:20px;
+}
+
+.menu li a{
+padding:10px;
+color:darkblue;
+text-decoration:none;
+display:inline-block;
+}
