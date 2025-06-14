@@ -1,3 +1,11 @@
+.body{
+    background-color:white;
+    margin:0;
+    padding:0;
+    font-family:verdana;
+
+}
+
 .register-login{
 position:absolute;
 padding-top:10px;
@@ -40,12 +48,12 @@ color:darkblue;
 }
 
 .navbar{
-background-color:aliceblue;
-margin:0;
-padding:10px 0;
+    margin:0;
+    padding:10px 0;
 }
 
 .container{
+background-color:aliceblue;
 display:flex;
 justify-content:center;
 align-items:center;
@@ -54,11 +62,11 @@ align-items:center;
 .menu{
 margin:0;
 display:flex;
-font-family:verdana;
-list-style:none;
-padding:0;
 justify-content:space-between;
 align-items:center;
+font-family:verdana;
+list-style:none;
+padding:20px 0;
 }
 
 .menu li{
@@ -73,3 +81,34 @@ text-decoration:none;
 font-weight:bold;
 display:inline-block;
 }
+
+.display-rak{
+    background: white;
+    display:block;
+    justify-content:center;
+    align-items:center;
+    height:110%;
+}
+
+
+.buku-rak{
+    border:none;
+    margin:60px auto;
+    padding:10px;
+    width:80px;
+    font-family:verdana;
+    font-size:30px;
+    color:darkblue;
+    font-weight:800;
+    text-align:center;
+    
+}
+
+.buku-judul{
+    width:200px;
+    height:200px;
+    padding:10px;
+    margin:10px;
+
+}
+
