@@ -2,12 +2,98 @@
 <head>
     <title> Register Login</title>
     <link rel="stylesheet" href="style3.css"/>
+    <style>
+.register-login{
+position:absolute;
+padding-top:10px;
+right:30px;
+font-family:verdana;
+z-index:10;
+}
+
+.register-login a{
+margin-left:10px;
+text-decoration:none;
+color:darkblue;
+}
+
+.header-bar {
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 10px 30px;
+position: relative;
+}
+
+.logo img {
+height: 170px;
+width:170px;
+}
+
+.judul-tengah {
+position: absolute;
+left: 50%;
+transform: translateX(-50%);
+}
+
+.judul-tengah h1 {
+font-size: 40px;
+font-family:verdana;
+margin: 0;
+color:darkblue;
+}
+
+.navbar{
+background-color:aliceblue;
+margin:0;
+padding:10px 0;
+}
+
+.container{
+display:flex;
+justify-content:center;
+align-items:center;
+}
+
+.menu{
+margin:0;
+display:flex;
+font-family:verdana;
+list-style:none;
+padding:0;
+justify-content:space-between;
+align-items:center;
+}
+
+.menu li{
+padding-left:0;
+margin-right:20px;
+}
+
+.menu li a{
+padding:10px;
+color:darkblue;
+text-decoration:none;
+font-weight:bold;
+display:inline-block;
+}
+
+    </style>
 </head>
 <body>
     <div class="register-login">
-        <a href="#">Register</a> | <a href="#">Login</a>
+        <a href="latihan36.html">Registrasi</a> | <a href="latihan37.html">Login</a>
     </div>
-    <img src="Combooks.png" width="170px" height="170px">
+
+    <div class="header-bar">
+        <div class="logo">
+            <img src="Combooks.png">
+        </div>
+        <div class="judul-tengah">
+            <h1>COMBOOKS</h1>
+        </div>
+    </div>
+
     <nav class="navbar">
         <div class="container">
             <ul class="menu">

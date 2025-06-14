@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<head>
+    <title> Tampilan Best Seller</title>
+    <link rel="stylesheet" href="style6.css"/>
+    <style>
+        .body{
+    background-color:white;
+    margin:0;
+    padding:0;
+    font-family:verdana;
+
+}
+
+.register-login{
+position:absolute;
+padding-top:10px;
+right:30px;
+font-family:verdana;
+z-index:10;
+}
+
+.register-login a{
+margin-left:10px;
+text-decoration:none;
+color:darkblue;
+
+}
+
+.header-bar {
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 10px 30px;
+position: relative;
+}
+
+.logo img {
+height: 170px;
+width:170px;
+}
+
+.judul-tengah {
+position: absolute;
+left: 50%;
+transform: translateX(-50%);
+}
+
+.judul-tengah h1 {
+font-size: 40px;
+font-family:verdana;
+margin: 0;
+color:darkblue;
+}
+
+.navbar{
+    margin:0;
+    padding:10px 0;
+}
+
+.container{
+background-color:aliceblue;
+display:flex;
+justify-content:center;
+align-items:center;
+}
+
+.menu{
+margin:0;
+display:flex;
+justify-content:space-between;
+align-items:center;
+font-family:verdana;
+list-style:none;
+padding:20px 0;
+}
+
+.menu li{
+padding-left:0;
+margin-right:20px;
+}
+
+.menu li a{
+padding:10px;
+color:darkblue;
+text-decoration:none;
+font-weight:bold;
+display:inline-block;
+}
+
+.display-rak{
+    background: white;
+    display:block;
+    justify-content:center;
+    align-items:center;
+    height:110%;
+}
+
+
+.buku-rak{
+    border:none;
+    margin:60px auto;
+    padding:10px;
+    width:80px;
+    font-family:verdana;
+    font-size:30px;
+    color:darkblue;
+    font-weight:800;
+    text-align:center;
+    
+}
+
+.buku-judul{
+    width:200px;
+    height:200px;
+    padding:10px;
+    margin:10px;
+
+}
+
+
+    </style>
+</head>
+<body>
+    <div class="register-login">
+        <a href="latihan36.html">Registrasi</a> | <a href="latihan37.html">Login</a>
+    </div>
+
+    <div class="header-bar">
+        <div class="logo">
+            <img src="Combooks.png">
+        </div>
+        <div class="judul-tengah">
+            <h1>COMBOOKS</h1>
+        </div>
+    </div>
+
+    <nav class="navbar">
+        <div class="container">
+            <ul class="menu">
+                <li> <a href="#">HOME</a>
+                <li> <a href="#">BUKU</a>
+                <li> <a href="#">MAJALAH</a>
+                <li> <a href="#">KORAN</a>
+                </li>
+            </ul>
+        </div>
+        <div class="display-rak">
+
+            <table class="buku-rak">
+                <tr>
+                    <th colspan="4">Buku Best Seller</th>
+                    </tr>
+                    <tr>
+                    <td><img src="Artificial Intelligence 2.jpg" class="buku-judul"></td>
+                    <td><img src="Majalah Komputer 1.jpg" class="buku-judul"></td>
+                    <td><img src="Pemrograman 1.jpg" class="buku-judul"></td>
+                    <td><img src="Multimedia 1.jpg"class="buku-judul"></td>
+                </tr>
+                </table>
+                <table class="buku-rak">
+                <tr>
+                    <th colspan="5">Majalah Komputer</th>
+                    </tr>
+                     <td><img src="Majalah Komputer 1.jpg"class="buku-judul"></td>
+                    <td><img src="Majalah Komputer 2.jpg"class="buku-judul"></td>
+                    <td><img src="Majalah Komputer 3.jpg"class="buku-judul"></td>
+                    <td><img src="Majalah Komputer 4.jpg"class="buku-judul"></td>
+                    <td><img src="Majalah Komputer 5.jpg"class="buku-judul"></td>
+                    </tr>
+                </table>
+         </div>
+    </nav>
+</body>
+</html>

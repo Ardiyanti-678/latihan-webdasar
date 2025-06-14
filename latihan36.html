@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<head>
+    <title>Registrasi</title>
+    <link rel="stylesheet" href="style4.css">
+    <style>
+        /* Atur background halaman */
+body {
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: verdana, sans-serif;
+}
+
+/* Kotak form */
+.register-border {
+    background-color: #fff;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+/* Judul form */
+.register-border h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Input field */
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Tombol submit */
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color:darkblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color:aliceblue;
+}
+
+    </style>
+</head>
+<body>
+<div class="register-border">
+    <h2>Registrasi</h2>
+
+    <form action="#">
+        <label for="fname">Nama Lengkap:</label><br>
+        <input type="text" id="fname" name="fname"><br><br>
+
+        <label for="uname">User Name:</label><br>
+        <input type="text" id="uname" name="uname"><br><br>
+
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password"><br><br>
+
+        <label for="Tname">Tangal Lahir:</label><br>
+        <input type="text" id="Tname" name="Tname"><br><br>
+
+        <input type="submit" value="Simpan">
+    </form>
+</div>
+</body>
+</html>

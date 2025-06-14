@@ -2,9 +2,64 @@
 <head>
     <title> Belajar Navigasi</title>
     <link rel="stylesheet" href="style1.css"/>
+    <style>
+        .logo-title{
+display: flex;
+align-items: center;
+gap: 15px; 
+padding: 20px;
+}
+
+.logo-title h1{
+font-size:28px;
+font-weight: bold;
+font-family:verdana;
+color: darkblue;
+margin: 0;
+}
+
+.navbar{
+background-color:aliceblue;
+margin:0;
+padding:30px 30px;
+}
+
+.container{
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.menu{
+margin:0;
+display:flex;
+font-family:verdana;
+list-style:none;
+padding:0;
+justify-content:space-between;
+align-items:center;
+}
+
+.menu li{
+padding-left:0;
+margin-right:20px;
+}
+
+.menu li a{
+padding:10px;
+color:darkblue;
+text-decoration:none;
+font-weight:bold;
+display:inline-block;
+}
+
+    </style>
 </head>
 <body>
+    <div class="logo-title">
     <img src="Combooks.png" width="170px" height="170px">
+    <h1>COMBOOKS</h1>
+    </div>
     <nav class="navbar">
         <div class="container">
             <ul class="menu">
