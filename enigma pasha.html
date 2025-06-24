@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Detail Novel</title>
+    <style>
+        body {
+            font-family: Verdana, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 40px auto;
+            background-color: #fff;
+            padding: 30px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+
+        .detail-buku {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+
+        .detail-buku img {
+            width: 300px;
+            height: auto;
+            border-radius: 8px;
+            object-fit: cover;
+        }
+
+        .info-buku {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            gap: 10px;
+        }
+
+        .info-buku .label {
+            font-weight: bold;
+            color: #333;
+        }
+
+        .harga {
+            font-size: 20px;
+            color: darkblue;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        .sinopsis {
+            margin-top: 40px;
+        }
+
+        .sinopsis h3 {
+            margin-bottom: 10px;
+            color: darkblue;
+        }
+
+        .sinopsis p {
+            line-height: 1.6;
+            text-align: justify;
+        }
+
+        .tombol-container {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .btn-beli {
+            display: inline-block;
+            padding: 12px 24px;
+            background-color: darkblue;
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: bold;
+            border-radius: 8px;
+            transition: background-color 0.3s;
+        }
+
+        .btn-beli:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="detail-buku">
+            <img src="Enigma Pasha.jpg" alt="Enigma Pasha">
+            <div class="info-buku">
+                <div><span class="label">Judul:</span> Enigma Pasha</div>
+                <div><span class="label">Pengarang:</span> Akaigita</div>
+                <div><span class="label">Penerbit:</span> Gramedia Pustaka Utama</div>
+                <div><span class="label">Cetakan:</span> Ke-2</div>
+                <div><span class="label">Jumlah Halaman:</span> 272</div>
+                <div class="harga">Rp71.200</div>
+            </div>
+        </div>
+
+        <div class="sinopsis">
+            <h3>Sinopsis</h3>
+            <p>Nomor 1 mendatar: teka-teki; misterius; tidak jelas (tentang ucapan). Enam huruf. E-N-I-G-M-A.</p>
+            <p>Sebagai murid baru pindahan di SMA Baswara, sosok Pasha langsung jadi bahan omongan. Pertama, dia mengaku sudah membaca data pribadi semua anak di kelasnya. Jangan-jangan dia psikopat! Kedua, kaca jendela kantin remuk dihajar bola bisbol bertuliskan nama Pasha. Apakah dia pelakunya? Atau dia mata-mata? Pasha kan mantan pemain bisbol di SMA Adigana, rival berat sekolah mereka. </p>
+            <p>Sella sebagai teman semeja Pasha dan kebetulan berada di TKP, mau tidak mau jadi terlibat. Penyelidikan demi penyelidikan Sella tidak hanya menguak fakta-fakta yang mencengangkan, namun juga menciptakan pertemanan unik dengan cowok misterius itu. Sayangnya ada yang tidak Sella sadari… Jejak-jejak Pasha yang dia ikuti ternyata membawanya pada jebakan yang sama sekali tidak terduga.</p>
+        <div class="tombol-container">
+                <a href="checkout.html" class="btn-beli">Beli Sekarang</a>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

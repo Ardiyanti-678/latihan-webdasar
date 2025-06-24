@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Detail Novel-Komik</title>
+    <style>
+        body {
+            font-family: Verdana, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 40px auto;
+            background-color: #fff;
+            padding: 30px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+
+        .detail-buku {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+
+        .detail-buku img {
+            width: 300px;
+            height: auto;
+            border-radius: 8px;
+            object-fit: cover;
+        }
+
+        .info-buku {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            gap: 10px;
+        }
+
+        .info-buku .label {
+            font-weight: bold;
+            color: #333;
+        }
+
+        .harga {
+            font-size: 20px;
+            color: darkblue;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        .sinopsis {
+            margin-top: 40px;
+        }
+
+        .sinopsis h3 {
+            margin-bottom: 10px;
+            color: darkblue;
+        }
+
+        .sinopsis p {
+            line-height: 1.6;
+            text-align: justify;
+        }
+
+        .tombol-container {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .btn-beli {
+            display: inline-block;
+            padding: 12px 24px;
+            background-color: darkblue;
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: bold;
+            border-radius: 8px;
+            transition: background-color 0.3s;
+        }
+
+        .btn-beli:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="detail-buku">
+            <img src="Rahasia Di Balik Rahasia.jpeg" alt="Rahasia Di Balik Rahasia">
+            <div class="info-buku">
+                <div><span class="label">Judul:</span> KKPK CLASS : Rahasia Di Balik Rahasia #30</div>
+                <div><span class="label">Pengarang:</span> Meiza Maulida Munawaroh</div>
+                <div><span class="label">Penerbit:</span> Mizan Publishing</div>
+                <div><span class="label">Cetakan:</span> Ke-1</div>
+                <div><span class="label">Jumlah Halaman:</span> 76</div>
+                <div class="harga">Rp19.500</div>
+            </div>
+        </div>
+
+        <div class="sinopsis">
+            <h3>Sinopsis</h3>
+            <p>Kelas 5 SD Ceria Bangsa kedatangan murid baru. Lila namanya. Segera saja Karima, Kiki, Putra, dan Karin menjadi teman Lila. Namun, Lila selalu menyembunyikan kehidupan pribadinya. Tak berselang lama, Karin mendapat SMS berisi ancaman dari nomor tak dikenal. Karin sampai trauma dan tidak masuk sekolah. Diam-diam, Karima, Kiki, dan Putra mencurigai seseorang. Untuk memaastikan kebenarannya, mereka menyelidiki pelaku sebenarnya. Petunjuk demi petunjuk mengarah pada pelaku yang tak disangka-sangka. Siapakah dia? Kenapa Lila selalu bersikap misterius?</p>
+            <div class="tombol-container">
+                <a href="checkout.html" class="btn-beli">Beli Sekarang</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

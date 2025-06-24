@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Detail Komik</title>
+    <style>
+        body {
+            font-family: Verdana, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 40px auto;
+            background-color: #fff;
+            padding: 30px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+
+        .detail-buku {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+
+        .detail-buku img {
+            width: 300px;
+            height: auto;
+            border-radius: 8px;
+            object-fit: cover;
+        }
+
+        .info-buku {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            gap: 10px;
+        }
+
+        .info-buku .label {
+            font-weight: bold;
+            color: #333;
+        }
+
+        .harga {
+            font-size: 20px;
+            color: darkblue;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        .sinopsis {
+            margin-top: 40px;
+        }
+
+        .sinopsis h3 {
+            margin-bottom: 10px;
+            color: darkblue;
+        }
+
+        .sinopsis p {
+            line-height: 1.6;
+            text-align: justify;
+        }
+
+        .tombol-container {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .btn-beli {
+            display: inline-block;
+            padding: 12px 24px;
+            background-color: darkblue;
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: bold;
+            border-radius: 8px;
+            transition: background-color 0.3s;
+        }
+
+        .btn-beli:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="detail-buku">
+            <img src="Choking on Love volume 2.jpg" alt="Choking on Love #2">
+            <div class="info-buku">
+                <div><span class="label">Judul:</span> Choking on Love #2</div>
+                <div><span class="label">Pengarang:</span> Keiko Iwashita</div>
+                <div><span class="label">Penerbit:</span> Seven Seas Entertainment</div>
+                <div><span class="label">Cetakan:</span> Ke-1</div>
+                <div><span class="label">Jumlah Halaman:</span> 182</div>
+                <div class="harga">Rp35.000</div>
+            </div>
+        </div>
+
+        <div class="sinopsis">
+            <h3>Sinopsis</h3>
+            <p>Dalam waktu singkat yang dihabiskan Hibari bersama Gaku, dia telah melakukan segala yang dia bisa untuk tidak tergila-gila pada musisi muda yang tak terkekang itu. Namun semua itu menjadi sia-sia setelah dia mencium Gaku dalam keadaan mabuk yang tidak ingin dilupakannya! Di antara perhatian khusus yang diterimanya selama pertunjukan langsung bandnya dan Gaku yang dengan santai membuat hatinya berdebar-debar dalam interaksi mereka sehari-hari, Hibari tidak yakin dia bisa memperlambat segalanya...atau apakah dia memang menginginkannya!</p>
+
+            <div class="tombol-container">
+                <a href="checkout.html" class="btn-beli">Beli Sekarang</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
