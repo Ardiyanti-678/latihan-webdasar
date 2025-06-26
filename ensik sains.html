@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Detail Ensiklopedia</title>
+    <style>
+        body {
+            font-family: Verdana, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 40px auto;
+            background-color: #fff;
+            padding: 30px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+
+        .detail-buku {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+
+        .detail-buku img {
+            width: 300px;
+            height: auto;
+            border-radius: 8px;
+            object-fit: cover;
+        }
+
+        .info-buku {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            gap: 10px;
+        }
+
+        .info-buku .label {
+            font-weight: bold;
+            color: #333;
+        }
+
+        .harga {
+            font-size: 20px;
+            color: darkblue;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        .sinopsis {
+            margin-top: 40px;
+        }
+
+        .sinopsis h3 {
+            margin-bottom: 10px;
+            color: darkblue;
+        }
+
+        .sinopsis p {
+            line-height: 1.6;
+            text-align: justify;
+        }
+
+        .tombol-container {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .btn-beli {
+            display: inline-block;
+            padding: 12px 24px;
+            background-color: darkblue;
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: bold;
+            border-radius: 8px;
+            transition: background-color 0.3s;
+        }
+
+        .btn-beli:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="detail-buku">
+            <img src="ensik sains.jpg" alt="ensik sains">
+            <div class="info-buku">
+                <div><span class="label">Judul:</span> Ensiklopedia Sains </div>
+                <div><span class="label">Pengarang:</span> Usborne</div>
+                <div><span class="label">Penerbit:</span> Bhuana Ilmu Populer</div>
+                <div><span class="label">Cetakan:</span> Ke-1</div>
+                <div><span class="label">Jumlah Halaman:</span> 456 </div>
+                <div class="harga">Rp398.000</div>
+            </div>
+        </div>
+
+        <div class="sinopsis">
+            <h3>Sinopsis</h3>
+            <p>Pemilihan buku anak perlu disesuaikan dengan usia anak dan isi cerita yang disampaikan. Membaca buku bagi anak menjadi salah satu langkah penting untuk meningkatkan kegiatan gemar membaca yang memiliki dampak positif sekaligus bermanfaat untuk ke depannya. Apalagi buku anak memuat cerita dan makna yang terkandung di dalamnya sehingga si Kecil memiliki wawasan yang cukup luas. Umumnya, buku anak menggunakan bahasa yang sederhana dan ilustrasi yang menarik perhatian. Dengan adanya ilustrasi di dalam buku, anak akan semakin berimajinasi dan menumbuhkan sikap kreativitas.</p>
+            <p>Salah satu buku anak Ensiklopedia Sains karya Usborne menjadi pilihan yang tepat untuk dibaca oleh buah hati karena menyajikan kisah unik dan menarik perhatian. Buku ini membantu si Kecil untuk mempelajari ilmu pengetahuan atau sains seperti fisika, biologi, kimia, ilmu bumi, astronomi, dan masih banyak lagi. Pembahasannya sangat mudah dipahami tanpa perlu membuat anak bingung dengan konsep yang dipaparkan di dalam buku ini. Selain cerita dan pembahasannya yang mengesankan, buku ini memiliki ilustrasi dan sampul depan yang cerah sehingga anak semakin penasaran dalam membaca buku.</p>
+           
+            <div class="tombol-container">
+                <a href="checkout.html" class="btn-beli">Beli Sekarang</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

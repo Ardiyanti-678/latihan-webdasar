@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Detail Ensiklopedia</title>
+    <style>
+        body {
+            font-family: Verdana, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 40px auto;
+            background-color: #fff;
+            padding: 30px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+
+        .detail-buku {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+
+        .detail-buku img {
+            width: 300px;
+            height: auto;
+            border-radius: 8px;
+            object-fit: cover;
+        }
+
+        .info-buku {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            gap: 10px;
+        }
+
+        .info-buku .label {
+            font-weight: bold;
+            color: #333;
+        }
+
+        .harga {
+            font-size: 20px;
+            color: darkblue;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        .sinopsis {
+            margin-top: 40px;
+        }
+
+        .sinopsis h3 {
+            margin-bottom: 10px;
+            color: darkblue;
+        }
+
+        .sinopsis p {
+            line-height: 1.6;
+            text-align: justify;
+        }
+
+        .tombol-container {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .btn-beli {
+            display: inline-block;
+            padding: 12px 24px;
+            background-color: darkblue;
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: bold;
+            border-radius: 8px;
+            transition: background-color 0.3s;
+        }
+
+        .btn-beli:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="detail-buku">
+            <img src="sastra dunia.jpg" alt="sastra dunia">
+            <div class="info-buku">
+                <div><span class="label">Judul:</span> Ensiklopedia Sastra Dunia </div>
+                <div><span class="label">Pengarang:</span> Anton Kurnia </div>
+                <div><span class="label">Penerbit:</span> Diva Press</div>
+                <div><span class="label">Cetakan:</span> Ke-1</div>
+                <div><span class="label">Jumlah Halaman:</span> 456 </div>
+                <div class="harga">Rp88.000</div>
+            </div>
+        </div>
+
+        <div class="sinopsis">
+            <h3>Sinopsis</h3>
+            <p>"Buku ini sangat informatif dan bisa mengundang diskusi yang menarik." (Melani Budianta). </p>
+            <p>"Panduan praktis bagi peminat sastra di tanah air." (Yusi Avianto Pareanom).</p>
+            <p>"Sangat bermanfaat. Akan sangat banyak pegiat sastra berutang budi pada buku ini karena menjadi sumber rujukan yang praktis dan memadai" (Kurnia Effendi).</p>
+            <p>"Bagus sekali. Pengetahuan saya diperkaya." (Hawe Setiawan).</p>
+            <p>"Sebuah 'kerja iman' yang tekun dan berharga." (Ahmad Baiquni).</p>
+            <p>Sebuah ensiklopedia sederhana pengantar menjelajah khanazah sastra dunia, memuat ikhtisar sejarah sastra dunia sejak ribuan tahun lampau, profil 355 sastrawan terkemuka dari pelbagai penjuru dunia dan zaman. Dilengkapi juga informasi tentang proses kreatif dan karya mereka. Juga terdapat beragam data tentang karya-karya terbaik sepanjang masa dan sejumlah hadiah sastra terkemuka di lima benua, di antaranya Hadiah Nobel Sastra, Man Booker Prize, dan Pulitzer Prize. Buku ini bisa dibaca, ditelaah, dan digunakan oleh peminat sastra, pecinta buku, kalangan akademisi, para penulis, serta pembaca awam.</p>
+            <div class="tombol-container">
+                <a href="checkout.html" class="btn-beli">Beli Sekarang</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

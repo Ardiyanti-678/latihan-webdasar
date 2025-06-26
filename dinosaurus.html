@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Detail Ensiklopedia</title>
+    <style>
+        body {
+            font-family: Verdana, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 40px auto;
+            background-color: #fff;
+            padding: 30px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+
+        .detail-buku {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+
+        .detail-buku img {
+            width: 300px;
+            height: auto;
+            border-radius: 8px;
+            object-fit: cover;
+        }
+
+        .info-buku {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            gap: 10px;
+        }
+
+        .info-buku .label {
+            font-weight: bold;
+            color: #333;
+        }
+
+        .harga {
+            font-size: 20px;
+            color: darkblue;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        .sinopsis {
+            margin-top: 40px;
+        }
+
+        .sinopsis h3 {
+            margin-bottom: 10px;
+            color: darkblue;
+        }
+
+        .sinopsis p {
+            line-height: 1.6;
+            text-align: justify;
+        }
+
+        .tombol-container {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .btn-beli {
+            display: inline-block;
+            padding: 12px 24px;
+            background-color: darkblue;
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: bold;
+            border-radius: 8px;
+            transition: background-color 0.3s;
+        }
+
+        .btn-beli:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="detail-buku">
+            <img src="dinosaurus.jpg" alt="dinosaurus">
+            <div class="info-buku">
+                <div><span class="label">Judul:</span> Ensiklopedia Pintar Pertamaku Dinosaurus</div>
+                <div><span class="label">Pengarang:</span> Claudia Martin </div>
+                <div><span class="label">Penerbit:</span> Bhuana Ilmu Populer </div>
+                <div><span class="label">Cetakan:</span> Ke-1</div>
+                <div><span class="label">Jumlah Halaman:</span> 98 </div>
+                <div class="harga">Rp115.000</div>
+            </div>
+        </div>
+
+        <div class="sinopsis">
+            <h3>Sinopsis</h3>
+            <p>Salah satu alasan anak tidak menyukai buku adalah beberapa buku tidak menarik atau tidak memiliki tampilan gambar yang disajikan, tentunya jika buku untuk anak berisi tulisan semua akan membuat dia cepat bosan. Apalagi anak harus memahami isi buku tersebut, tentu membuat ia berpikir keras mengenai hal tersebut.</p>
+            <p>Disini peran orang tua sangatlah penting, dimana membaca dapat membantu tumbuh kembang anak. Dan saat ia beranjak remaja maka ia sudah dapat menyerap pengetahuan tertentu, saat anak ingin mengetahui tentang dunia, Maka orang tua dapat membantu dengan membacakan buku atau membeli buku. Salah satu buku yang orang tua dapat berikan kepada anak adalah buku ensiklopedia. Ensiklopedia adalah kumpulan pengetahuan (bisa dalam satu tema maupun universal) yang disusun menurut abjad dan dipenuhi dengan fakta menarik yang memudahkan anak-anak menyerap dan menangkap informasi. Salah satu buku ensiklopedia yang dapat menjadi referensi anda khususnya mengenai topik hewan adalah ‘Buku Ensiklopedia Pintar Pertamaku Dinosaurus” ini.</p>
+            <p>Mengapa beberapa dinosaurus memiliki bulu? Seberapa cepat dinosaurus dapat berlari? Apa yang membuat T-rex menjadi pemburu yang hebat? Ensiklopedia pengetahuan pertama tentang dinosaurus ini memiliki beragam konten yang membahas berbagai jenis dan keistimewaan dinosaurus. Dalam buku ini, anak dapat mempelajari berbagai topik meliputi, zaman dinosaurus, dinosaurus karnivor dan herbivor, serta berbagai jenis reptilia. Buku ini dilengkapi dengan ilustrasi yang luar biasa, disertai ilmu dari para ahli dan fakta-fakta menakjubkan untuk anak-anak.</p>
+            <div class="tombol-container">
+                <a href="checkout.html" class="btn-beli">Beli Sekarang</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
