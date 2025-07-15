@@ -1,0 +1,233 @@
+body {
+        margin: 0;
+        font-family: 'Segoe UI', sans-serif;
+        background-color: #f9f9f9;
+        }
+
+        /* HEADER */
+        .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 40px;
+        background-color: white;
+        border-bottom: 1px solid #ddd;
+        }
+
+        .logo-judul {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        }
+
+        .logo-judul img {
+        width: 140px;
+        height: 140px;
+        }
+
+        .judul-toko h1 {
+        font-size: 30px;
+        font-family:verdana;
+        margin: 0;
+        font-weight: bold;
+        color: darkblue;
+        letter-spacing: 1px;
+        }
+
+        .navbar .menu {
+        list-style: none;
+        display: flex;
+        gap: 30px;
+        margin: 0;
+        padding: 0;
+        }
+
+        .search-bar{
+        display:flex;
+        align-items:center;
+        }
+
+        .search-bar input{
+        padding: 6px 10px;
+        font-family:'Segoe UI', sans-serif;
+        font-size: 14px;
+        border: 1px solid #ccc;
+        border-radius: 4px 0 0 4px;
+        outline: none;
+        }
+
+        .search-bar button{
+        padding: 6px 10px;
+        background-color: darkblue;
+        color: white;
+        border: none;
+        border-radius: 0 4px 4px 0;
+        cursor: pointer;
+        }
+
+        .search-bar button:hover{
+        background-color:midnightblue;
+        }
+
+        .menu li{
+        position:relative;
+        }
+
+        .menu ul li:hover > ul{
+        display:block;
+        left:100%;
+        top:0;
+        }
+
+        .menu>li>a:hover{
+        background-color:navy;
+        color:white;
+        border-radius:6px;
+        }
+        
+        .menu a {
+        text-decoration: none;
+        color: darkblue;
+        font-weight: bold;
+        font-size: 20px;
+        padding: 8px;
+        display: block;
+        }
+
+        .menu li:hover >ul{
+        display:block;
+        }
+
+        .menu ul{
+        display: none;
+        position: absolute;
+        top: 36px;
+        left: 0;
+        background-color: whitesmoke;
+        border: 1px solid lightgray;
+        list-style: none;
+        padding: 0;
+        min-width: 180px;
+        z-index: 10;
+        }
+
+        .menu ul li{
+        position:relative;
+        }
+
+        .menu ul li:hover > ul{
+        display:block;
+        left:100%;
+        top:0;
+        }
+
+         .menu ul li>a:hover{
+        background-color:navy;
+        color:white;
+        border-radius:6px;
+        }
+
+        .menu ul a{
+        font-weight: normal;
+        font-size: 16px;
+        padding: 8px 12px;
+        color: darkblue;
+        }
+
+         .menu ul li ul li>a:hover{
+        background-color:navy;
+        color:white;
+        border-radius:6px;
+        }
+
+
+        .masuk-daftar {
+        display: flex;
+        gap:10px;
+        }
+
+        .masuk-daftar a.btn {
+        display:inline-block;
+        padding: 6px 12px;
+        font-size:14px;
+        font-weight:bold;
+        border-radius:6px;
+        background-color:darkblue;
+        color:white;
+        text-decoration:none;
+        transition:background-color 0.2 ease;
+        }
+
+        .masuk-daftar a:hover{
+        background-color:midnightblue;
+        }
+
+        /* DISPLAY PRODUK */
+        .display-produk {
+        padding: 40px;
+        background-color:white;
+        }
+
+        .judul-bestseller h1 {
+        font-size: 30px;
+        margin-bottom: 20px;
+        color:darkblue;
+        text-align:center;
+        }
+
+        .rak-buku {
+        display: grid;
+        grid-template-columns:repeat(auto-fit, minmax(150px, 180px));
+        justify-content:center;
+        gap:20px;
+        }
+
+        .kartu-buku {
+        background-color:whitesmoke;
+        border-radius: 12px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+        padding: 15px;
+        text-align: center;
+        transition: transform 0.2s;
+        text-decoration:none;
+        color:inherit;
+        margin-bottom:10px;
+        }
+
+        .kartu-buku:hover {
+        transform: translateY(-5px);
+        }
+
+        .cover-buku {
+        width: 100%;
+        height: 220px;
+        object-fit: cover;
+        border-radius: 8px;
+        }
+
+        .judul-buku{
+        min-height:48px;
+        }
+
+        .judul-buku h1 {
+        font-size: 16px;
+        margin: 10px 0 5px;
+        color:black;
+        font-weight:bold;
+        }
+
+        .nama-penulis{
+        min-height:40px;
+        }
+
+        .nama-penulis p {
+        font-size: 14px;
+        color: grey;
+        margin: 0 0 5px;
+        }
+
+        .harga-buku {
+        font-size: 18px;
+        font-weight: bold;
+        color: darkblue;
+        }

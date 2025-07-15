@@ -1,0 +1,159 @@
+body {
+font-family: Segoe UI, sans-serif;
+background-color: #f4f4f4;
+margin: 0;
+padding: 0;
+}
+
+.detail {
+max-width: 1000px;
+margin: 40px auto;
+padding: 0 20px;
+}
+
+    
+.kotak-deskripsi {
+background-color: white;
+border-radius: 12px;
+padding: 30px;
+box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+margin-bottom: 40px;
+}
+
+.detail-buku {
+display: flex;
+flex-wrap: wrap;
+gap: 30px;
+}
+
+.detail-buku img {
+width: 200px;
+height: auto;
+border-radius: 8px;
+object-fit: cover;
+}
+
+.info-buku {
+flex: 1;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+gap: 10px;
+}
+
+.info-buku .label {
+font-weight: bold;
+color: #333;
+}
+
+.harga {
+font-size: 20px;
+color: darkblue;
+font-weight: bold;
+margin-top: 10px;
+}
+
+.sinopsis {
+margin-top: 30px;
+}
+
+.sinopsis h3 {
+margin-bottom: 10px;
+color: darkblue;
+}
+
+.sinopsis p {
+line-height: 1.6;
+text-align: justify;
+}
+
+.tombol-container {
+display:flex;
+justify-content:space-between;
+padding:0 50px;
+text-align: center;
+margin-top: 30px;
+}
+
+.btn-beli,
+.btn-keranjang {
+display: inline-block;
+padding: 12px 20px;
+background-color: darkblue;
+color: white;
+text-decoration: none;
+font-size: 14px;
+font-weight: bold;
+border-radius: 8px;
+margin: 10px;
+transition: background-color 0.3s;
+}
+
+.btn-beli:hover,
+.btn-keranjang:hover {
+background-color: midnightblue;
+}
+
+    
+.display-produk {
+background-color: white;
+border-radius: 12px;
+padding: 30px;
+box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.judul-bestseller h1 {
+font-size: 24px;
+margin-bottom: 20px;
+color: darkblue;
+}
+
+.rak-buku {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+justify-content: center;
+gap: 20px;
+}
+
+.kartu-buku {
+background-color: whitesmoke;
+border-radius: 12px;
+box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+padding: 15px;
+text-align: center;
+transition: transform 0.2s;
+text-decoration: none;
+color: inherit;
+}
+
+.kartu-buku:hover {
+transform: translateY(-5px);
+}
+
+.cover-buku {
+width: 100%;
+height: 220px;
+object-fit: cover;
+border-radius: 8px;
+}
+
+.judul-buku h1 {
+font-size: 16px;
+margin: 10px 0 5px;
+color: black;
+font-weight: bold;
+min-height: 48px;
+}
+
+.nama-penulis p {
+font-size: 14px;
+color: grey;
+margin: 0 0 5px;
+min-height: 40px;
+}
+
+.harga-buku {
+font-size: 18px;
+font-weight: bold;
+color: darkblue;
+}

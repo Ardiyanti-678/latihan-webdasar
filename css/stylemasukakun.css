@@ -1,0 +1,107 @@
+body {
+font-family: Verdana, sans-serif;
+background-color: #fff;
+margin: 0;
+padding: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+}
+
+.masuk-akun {
+width: 90%;
+max-width: 400px;
+padding: 30px;
+box-sizing: border-box;
+}
+
+h2 {
+text-align: center;
+font-weight: bold;
+margin-bottom: 30px;
+color: darkblue;
+}
+
+form input {
+width: 100%;
+padding: 15px;
+margin: 10px 0;
+border-radius: 10px;
+border: 1px solid darkblue;
+font-size: 16px;
+font-family: Verdana;
+box-sizing: border-box; 
+}
+
+.lupa-sandi {
+text-align: right;
+margin-top: -5px;
+margin-bottom: 20px;
+}
+
+.lupa-sandi a {
+font-size: 14px;
+color: darkblue;
+text-decoration: underline;
+}
+
+button.masuk {
+width: 100%;
+background-color: lightgray;
+color: #fff;
+padding: 15px;
+border: none;
+border-radius: 15px;
+font-family: Verdana;
+font-weight: bold;
+font-size: 16px;
+cursor:pointer;
+box-sizing: border-box; 
+}
+
+button.masuk:hover {
+background-color: darkblue;
+}
+
+.atau-google {
+text-align: center;
+margin: 20px 0;
+color: #666;
+}
+
+button.login-google {
+width: 100%;
+background-color: #fff;
+border: 1px solid darkblue;
+padding: 15px;
+margin: 10px 0;
+border-radius: 10px;
+font-family: Verdana;
+color: darkblue;
+font-size: 16px;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 10px;
+cursor: pointer;
+box-sizing: border-box; 
+}
+
+button .icon {
+width: 20px;
+height: 20px;
+}
+
+.daftar {
+text-align: center;
+margin-top: 20px;
+font-size: 14px;
+color: darkblue;
+}
+
+.daftar a {
+color: darkblue;
+font-weight: bold;
+text-decoration: underline;
+}
